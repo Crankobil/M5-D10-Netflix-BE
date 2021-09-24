@@ -1,0 +1,34 @@
+{
+  "name": "M5-D10-Netflix-BE",
+  "version": "1.0.0",
+  "description": "",
+  "main": "errorHandlers.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -e js ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crankobil/M5-D10-Netflix-BE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Crankobil/M5-D10-Netflix-BE/issues"
+  },
+  "homepage": "https://github.com/Crankobil/M5-D10-Netflix-BE#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-list-endpoints": "^6.0.0",
+    "fs-extra": "^10.0.0",
+    "http-errors": "^1.8.0",
+    "multer": "^1.4.3",
+    "uniqid": "^5.4.0",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
