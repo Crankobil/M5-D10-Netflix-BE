@@ -31,14 +31,14 @@ const corsOptions =
 
 //ROUTES
 
-server.use("/media", mediaRoutes);
+/* server.use("/media", mediaRoutes);
 server.use("/reviews", reviewsRoutes);
-server.use("/user", usersRoutes);
+server.use("/user", usersRoutes); */
 
 // ERROR HANDLERS
-server.use(badRequestHandler);
+/* server.use(badRequestHandler);
 server.use(notFoundHandler);
-server.use(genericErrorHandler);
+server.use(genericErrorHandler); */
 
 console.log(listEndpoints(server));
 
